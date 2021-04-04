@@ -3,5 +3,5 @@ tce-load -wi tc-install-GUI tc-install mc ntfs-3g htop wireless_tools firmware-r
 curl -O -k https://distro.ibiblio.org/tinycorelinux/12.x/x86_64/release/TinyCorePure64-12.0.iso
 sudo mkdir /mnt/cde
 sudo mount -o loop TinyCorePure64-12.0.iso /mnt/cde/
-cp -u /mnt/cde/* /tmp/tce/optional/ 
+cp -u /mnt/cde/cde/* /tmp/tce/optional/ 
 startx
