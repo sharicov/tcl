@@ -4,4 +4,4 @@ curl -O -k https://distro.ibiblio.org/tinycorelinux/12.x/x86_64/release/TinyCore
 sudo mkdir /mnt/cde
 sudo mount -o loop TinyCorePure64-12.0.iso /mnt/cde/
 cp -u /mnt/cde/cde/optional/* /tmp/tce/optional/ 
-startx
+#startx
