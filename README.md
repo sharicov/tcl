@@ -1,13 +1,11 @@
 tce-load -iw git
 
 
-git clone https://github.com/sharicov/tcl
+git clone https://github.com/sharicov/tcl 
 
-cd tcl  
+chmod +x tcl/install.sh
 
-chmod +x install.sh
-
-./install.sh
+tcl/install.sh
 
 startx
 
